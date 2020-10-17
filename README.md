@@ -7,5 +7,5 @@ helm install my-ingress nginx-stable/nginx-ingress --set controller.image.reposi
 ```
 
 ```
- kubectl apply -f https://raw.githubusercontent.com/richardincyberspace/kiclab-isc/master/demo-cafe-app.yaml
+kubectl apply -f https://raw.githubusercontent.com/richardincyberspace/kiclab-isc/master/demo-cafe-app.yaml
 ```
