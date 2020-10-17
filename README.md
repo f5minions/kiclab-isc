@@ -1,8 +1,8 @@
 # k8s Ingress Controller with AppProtect Lab for ISC
 
----
+'''
 helm repo add nginx-stable https://helm.nginx.com/stable
 helm repo update
 helm install my-ingress nginx-stable/nginx-ingress --set controller.image.repository=richardincyberspace/nap --set controller.nginxplus=true --set controller.image.tag=1.8.0 --set controller.appprotect.enable=true
----
+'''
 
