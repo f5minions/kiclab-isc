@@ -1,5 +1,7 @@
 # k8s Ingress Controller with AppProtect Lab for ISC
 
+** NOTE: A working k8s environment has been setup **
+
 ```
 helm repo add nginx-stable https://helm.nginx.com/stable
 helm repo update
