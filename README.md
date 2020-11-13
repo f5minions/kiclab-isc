@@ -5,7 +5,7 @@
 ```
 helm repo add nginx-stable https://helm.nginx.com/stable
 helm repo update
-helm install my-ingress nginx-stable/nginx-ingress --set controller.image.repository=richardincyberspace/nap \ 
+helm install my-ingress nginx-stable/nginx-ingress --set controller.image.repository=richardincyberspace/nap \
   --set controller.nginxplus=true --set controller.image.tag=1.8.0 --set controller.appprotect.enable=true \
   --version 0.6.1
 ```
